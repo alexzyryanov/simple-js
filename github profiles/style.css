@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d1117;
+}
+
+.block-profile {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #484f58;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.about-info > p {
+    margin: 10px 0 10px 0;
+    color: #c9d1d9;
+    font-size: 30px;
+}
+
+.photo {
+    height: 105px;
+    width: 105px;
+}
+
+.photo > img {
+    height: 105px;
+    width: 105px;
+    border-radius: 50px;
+}
+
+.git-info {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+
+.repos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.followers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.following {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+p {
+    color: #c9d1d9;
+}
+
+.search {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 400px;
+}
+
+.input-search {
+    width: 70%;
+    font-size: 20px;
+}
+
+.button-search {
+    width: 30%;
+}
