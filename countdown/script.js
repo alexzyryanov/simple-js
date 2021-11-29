@@ -9,7 +9,6 @@ function timer () {
     let now = new Date()
     let diff = (newYaear - now) / 1000
 
-
     days.innerHTML = formatTimer(Math.floor(diff / 3600 / 24))
     hours.innerHTML = formatTimer(Math.floor(diff / 3600) % 24)
     minutes.innerHTML = formatTimer(Math.floor(diff / 60) % 60)
@@ -24,4 +23,4 @@ function formatTimer(time) {
 
 setInterval(() => {
     timer()
-}, 1000);
+}, 1000)

@@ -33,8 +33,27 @@
 .form-button > button {
     width: 100%;
     height: 50px;
+    border: none;
+}
+
+.form-button > button:hover {
+    background-color: orangered;
 }
 
 .answer-box {
     margin: 10px;
+}
+
+input {
+    margin-right: 20px;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 600px;
+    height: 300px;
+    box-shadow: 15px 15px 15px 0px rgba(34, 60, 80, 0.1);
 }

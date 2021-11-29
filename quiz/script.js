@@ -8,10 +8,11 @@ let x = [
 function loads() {
     if (count === x.length){
         let div = document.querySelector(".form")
-        div.remove()
-        let h1 = document.createElement("h1")
-        h1.innerText = `yor result ${total}`
-        document.body.append(h1)
+        div.remove()        
+        let answ = document.createElement("div")
+        answ.className = "answer"
+        answ.innerHTML =`<h1>Your result ${total}</h1>`
+        document.body.append(answ)
     } else {
         let div = document.querySelector(".form-vote")
         div.innerHTML = `

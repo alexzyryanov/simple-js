@@ -96,8 +96,16 @@ p {
 .input-search {
     width: 70%;
     font-size: 20px;
+    outline: none;
+    border: none;
 }
 
 .button-search {
     width: 30%;
+    border: none;
+    background-color: #c9d1d9;
+}
+
+.button-search:hover {
+    background-color: orangered;
 }
